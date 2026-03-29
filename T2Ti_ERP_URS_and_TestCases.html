@@ -1414,7 +1414,7 @@ th{background:var(--primary)!important;-webkit-print-color-adjust:exact;print-co
 
 </main>
 
-<a href="#" class="back-to-top" title="Back to Top">&#8679; Top</a>
+<a href="#" id="back-to-top" title="Back to Top">&#8679; Top</a>
 
 <footer style="text-align:center; padding:2rem; background:#1a237e; color:white; margin-top:2rem;">
 <p>T2Ti ERP - User Requirement Specification &amp; Test Cases v1.0</p>
@@ -1424,7 +1424,7 @@ th{background:var(--primary)!important;-webkit-print-color-adjust:exact;print-co
 
 <script>
 // Back to top button
-const backToTop = document.querySelector('.back-to-top');
+const backToTop = document.querySelector('#back-to-top');
 window.addEventListener('scroll', () => {
     backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
 });
