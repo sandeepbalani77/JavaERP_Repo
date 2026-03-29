@@ -1,0 +1,12 @@
+package com.t2ti.erp.exception;
+
+public class BusinessException extends RuntimeException {
+
+    public BusinessException(String message) {
+        super(message);
+    }
+
+    public BusinessException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
